@@ -591,6 +591,14 @@ Concept section
 	pointer-events: none;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
+.main-menu li a {
+	margin-left: 15px;
+}
+
 .mpurple {
 	background-color: rgb(116, 26, 254)
 }
@@ -1627,7 +1635,7 @@ Responsive
 
 /* Tablet :768px. */
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1368px) {
 	.hr-img {
 		display: none;
 	}
