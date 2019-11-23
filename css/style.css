@@ -551,11 +551,42 @@ Concept section
 	width: 100%;
 }
 
+.treeview-animated-list {
+	padding-left: 0 !important;
+}
+
+.treeview-animated-element {
+	padding-left: 40px !important;
+}
+
 .treeview-animated-element, .treeview-animated-items a {
 	background: #1c294a;
 	border-radius: 42px !important;
 	padding: 10px;
+	height: 60px;
+	display: flex !important;
+	align-items: center !important;
 }
+
+.treeview-animated .treeview-animated-list li {
+	padding-top: 10px;
+}
+
+.treeview-animated .treeview-animated-list .treeview-animated-items .nested::before {
+	width: 1px;
+}
+
+.fas {
+	font-size: 1em !important;
+	margin: 10px !important;
+	background-color: #fc0354;
+	border-radius: 50%;
+	width: 1em;
+	height: 1em;
+	padding-top: 1px;
+	padding-left: 6px;
+}
+
 .mroot {
 	pointer-events: none;
 }
