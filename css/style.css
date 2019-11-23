@@ -663,9 +663,17 @@ Concept section
 }
 .date-container {
 	padding: 30px;
-	background-color: #1c294a;
-	border-radius: 28px;
 	margin-left: 12px;
+	text-align: center;
+}
+.date-container h3{
+	margin-top: 10px;
+}
+.mcalendar {
+	background-color: transparent;
+	font-size: 24px !important;
+	margin: 0 !important;
+	padding: 0;
 }
 /* --------------------
 Subscription section
