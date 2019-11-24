@@ -817,19 +817,38 @@ Responsive
 
 .footer-section {
 	background: #0a183d;
-	padding: 20px 0 20px;
+	padding: 30px 0 30px;
 }
 .contact-container p {
 	color: #6a7080;
+
+}
+.footer-title-container{
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
 }
 
 .contact-container {
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
+}
+.footer-row {
+	justify-content: space-between;
 }
 
 .footer-widget {
 	padding-top: 2px;
+}
+.contact-item {
+	display: flex;
+	align-items: center;
+	color: #6a7080;
+}
+.contact-item p {
+	margin: 0;
+	padding-left: 5px;
 }
 
 .footer-widget h2 {
@@ -855,7 +874,6 @@ Responsive
 	text-transform: uppercase;
 	font-weight: 500;
 	color: #505565;
-	padding: 10px 0 25px;
 }
 
 .social-links a {
