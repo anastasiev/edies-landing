@@ -629,6 +629,90 @@ html {
 	margin-left: 15px;
 }
 
+.mpurple {
+	background-color: rgb(116, 26, 254)
+}
+.mpink {
+	background-color: rgb(240, 10, 255);
+}
+.mblue {
+	background-color: rgb(20, 72, 250);
+}
+.roadmap-section {
+	width: 80%;
+	height: 275px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.roadmap-icon-container {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: -40px;
+	left: 80px;
+}
+.roadmap-icon-container svg{
+	width: 55px;
+	height: 55px;
+	color: #ffffff;
+}
+.left-roadmap-sector {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 21px;
+}
+.right-roadmap-sector {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	margin-right: 100px;
+}
+.roadmap-section-title {
+	margin-top: 52px;
+	font-weight: 700;
+	width: 200px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.roadmap-arrow-container {
+	margin-top: 12px;
+}
+.roadmap-text-block {
+
+}
+.roadmap-text-title {
+
+}
+.roadmap-date-container {
+	align-items: center;
+	display: flex;
+}
+.roadmap-container {
+	display: flex;
+}
+.date-container {
+	padding: 30px;
+	margin-left: 12px;
+	text-align: center;
+}
+.date-container h3{
+	margin-top: 10px;
+}
+.mcalendar {
+	background-color: transparent;
+	font-size: 24px !important;
+	margin: 0 !important;
+	padding: 0;
+}
 /* --------------------
 Subscription section
 -----------------------*/
