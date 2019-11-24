@@ -602,10 +602,11 @@ Concept section
 	visibility: hidden;
 	transition: background-color .3s;
 	z-index: 1000;
-}
-#scroll-to-top:hover {
 	cursor: pointer;
-	opacity: 0.8 !important;
+}
+
+#scroll-to-top:hover i {
+	color: #fc0354;
 }
 
 #scroll-to-top.show {
@@ -614,7 +615,7 @@ Concept section
 }
 
 #scroll-to-top i {
-	color: #fc0354;
+	color: #ffffff;
 }
 
 .mroot {
