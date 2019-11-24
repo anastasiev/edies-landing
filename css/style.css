@@ -576,7 +576,7 @@ Concept section
 	width: 1px;
 }
 
-.fas {
+.fas-tree {
 	font-size: 1em !important;
 	margin: 10px !important;
 	background-color: #fc0354;
@@ -585,6 +585,36 @@ Concept section
 	height: 1em;
 	padding-top: 1px;
 	padding-left: 6px;
+}
+
+#scroll-to-top {
+	display: inline-block;
+	background: #1b284a;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 50%;
+	border: 0;
+	margin: 30px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	visibility: hidden;
+	transition: background-color .3s;
+	z-index: 1000;
+}
+#scroll-to-top:hover {
+	cursor: pointer;
+	opacity: 0.8 !important;
+}
+
+#scroll-to-top.show {
+	opacity: 1;
+	visibility: visible;
+}
+
+#scroll-to-top i {
+	color: #fc0354;
 }
 
 .mroot {

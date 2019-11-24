@@ -58,6 +58,21 @@ $(window).on('load', function() {
   $(document).ready(function() {
     $('.treeview-animated').mdbTreeview();
     $('.mOpened').click();
+
+		const scrollBtn = $('#scroll-to-top');
+
+		$(window).scroll(function() {
+			if ($(window).scrollTop() > 300) {
+				scrollBtn.addClass('show');
+			} else {
+				scrollBtn.removeClass('show');
+			}
+		});
+
+		scrollBtn.on('click', function(e) {
+			e.preventDefault();
+			$('html, body').animate({ scrollTop: 0 });
+		});
   });
 
 })(jQuery);
